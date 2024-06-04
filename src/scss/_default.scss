@@ -1,0 +1,30 @@
+@import 'sass-variables';
+@import 'mixins';
+
+*,
+*:before,
+*:after {
+    outline: none !important;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    -webkit-text-size-adjust: none;
+    touch-action: manipulation;
+    scroll-behavior: smooth;
+}
+
+body, html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
